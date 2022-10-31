@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html{
+    width: 100%
+}
+body {
+    background: #F9FBFC;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 55px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+h4 {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    margin-bottom: 1rem;
+}
+.button-white {
+    background: #fff;
+    color: #2192FF;
+    border-color: #2192FF;
+    border-radius: 10px;
+}
+.button-green {
+    background: #2192FF;
+    color: #fff;
+    border-color: #2192FF;
+    border-radius: 10px;
+}
+.back-button{
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+    color: #000;
+  }
+.card{
+    margin-top: 2rem;
+}
+/* HOME */
+header {
+    background: #2192FF;
+    padding-bottom: 10px;
+    height: 48vh
+}
+header .navbar-brand{
+    color: #fff !important;
+}
+.heading {
+    height:75%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page-info {
+    margin-top: 2em;
+}
+
+.landing-page-info i {
+    display: block;
+    margin: 0 auto;
+    font-size: 156px;
+    text-align: center;
+    color: #0BD5DB;
+}
+
+.landing-page-info p {
+    text-align: center;
+}
+
+.landing-page-info h4 {
+    color: #2192FF;
+    text-align: center;
+}
+
+.landingpage-card {
+    height: 24em;
+}
+
+
+/* LOGIN AND SIGNUP */
+.navbar-brand{
+    color: #2192FF !important;
+}
+.left-section {
+    padding: 2%;
+    width: 40%;
+    height: 90vh;
+    background: #2192FF;
+    color: #fff;
+    line-height: 26px;
+  }
+  
+  .left-section h2 {
+    margin-top: 25vh;
+    margin-bottom: 20px;
+  }
+  
+  .right-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* DASHBOARD */
+.account-circle{
+    color: #2192FF;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.dashboard-sidebar{
+    background: #2192FF;
+    color: #fff;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    padding-top: 15px;
+}
+.dashboard-sidebar h4{
+    text-align: center;
+    font-size: 20px
+}
+.sidebar-items{
+    margin-top: 20px;
+    list-style: none;
+}
+.sidebar-items li{
+    margin-bottom: 10vh;
+}
+.sidebar-items a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* TRANSACTION */
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .dashboard-nav{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    h2{
+        color: #2192FF
+    }
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-warpper {
+        background: #2192FF;
+    }
+
+    .white-nav .brand-logo {
+        color: #fff;
+    }
+
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h4 {
+        text-align: center
+    }
+
+    .heading a {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    /* form {
+        background: #2192FF;
+        text-align: center;
+        color: #fff;
+    } */
+
+    label {
+        color: #fff !important;
+    }
+
+    .form-label{
+        color: #000 !important;
+    }
+    .login-signup-green {
+        background: #fff;
+        color: #2192FF;
+    }
+
+
+    .green-wrapper {
+        background: #2192FF;
+        height: 105vh;
+        text-align: center;
+        color: #fff;
+    }
+    .card{
+        overflow-x: hidden;
+    }
+
+
+
+    /* LOGIN AND SIGNUP */
+
+    .mobile-green{
+        background-color: #2192FF !important;
+        color: #fff;
+    }
+    .mobile-green .navbar-brand{
+        color: #fff !important;
+    }
+    .left-section{
+        background: #fff;
+        color: #000;
+        padding: 0 20px;
+        height: 30vh
+        
+    }
+    .left-section h2{
+        margin-top: 5vh;
+    }
+    .left-section button{
+        display: none;
+    }
+    .right-section{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+    .login-signup form{
+        background: #fff;
+    }
+
+
+
+    /* DASHBOARD */
+    .dashboard-nav, .navbar-light{
+        /* background: #2192FF; */
+        width: 100%;
+        color: #fff !important;
+    }
+    .dashboard-nav a{
+        color: #333;
+    }
+    .dashboard-sidebar{
+        display: none;
+    }
+
+}
